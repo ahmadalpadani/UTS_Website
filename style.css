@@ -1,0 +1,129 @@
+body {
+    font-family: 'arial', sans-serif;
+}
+
+/* Navbar Styles */
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+/* About Section */
+#about {        
+    padding: 60px 0;
+}
+
+/* Skills Section */
+#skills {
+    background: #e3e3e3;
+    padding: 60px 0;
+}
+
+.skill-img {
+    max-width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.skill-img:hover {
+    transform: scale(1.1);
+}
+
+/* Services Section */
+#services {
+    padding: 60px 0;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* Download CV Section */
+#cv {
+    padding: 60px 0;
+}
+
+.contact {
+    padding: 60px 0;
+}
+
+.btn-primary {
+    background: #3498db;
+    border: none;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+}
+
+.btn-primary:hover {
+    background: #2980b9;
+}
+
+/* Social Media Section */
+#social-media {
+    background: #2c3e50;
+    padding: 60px 0;
+}
+
+.btn-social-icon {
+    border: 2px solid #ecf0f1;
+    color: #ecf0f1;
+    transition: all 0.3s ease;
+}
+
+.btn-social-icon:hover {
+    background: #3498db;
+    color: #fff;
+}
+
+/* Scroll to Top Button */
+#scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #3498db;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    .skill-img {
+        max-width: 80px;
+        height: 80px;
+    }
+
+    .card-body h5 {
+        font-size: 1.1rem;
+    }
+}
